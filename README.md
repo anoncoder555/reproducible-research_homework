@@ -24,8 +24,10 @@ I used the function set.seed() to set a random seed. This initiated a specific s
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
 
+The table has 33 rows and 13 collumns.
 
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
+
 
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
 
