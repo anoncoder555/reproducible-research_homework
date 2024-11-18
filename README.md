@@ -3,6 +3,20 @@
 Answers to Questions 1, 2 and 3:
 https://github.com/anoncoder555/logistic_growth
 
+### Q4: Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible: ###
+
+a) A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points) \
+
+Running this code produces two random walk plots. Every time the code is re-run, new plots appear. 
+From my two random walks I can see that both random walks intiate at the origin (0,0). Time is represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. From the code I can see that the angle of the next step is generated at random.
+
+b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points) \
+
+c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points) \
+
+
+d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points) 
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
