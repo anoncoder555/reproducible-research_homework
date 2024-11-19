@@ -17,7 +17,7 @@ Before specifying a seed in R, R will choose a random seed every time the code i
 
 **c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)**
 
-I used the function set.seed() to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time.   
+I used the function set.seed() to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time. When specified with set.seed() the right and left graphs showed identical random walks as they were fed identical sequences of numbers. 
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
