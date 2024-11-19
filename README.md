@@ -30,7 +30,8 @@ I used the function set.seed() to set a random seed. This initiated a specific s
 The table has 33 rows and 13 collumns.
 
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
-The original relationship between volume and genome length is non-linear. It fit a linear model to the data we must first transform it using a log transformation. 
+
+The original relationship between volume and genome length is **$`V = \alpha L^{\beta}`$** which is non-linear. To fit a linear model to the data we must first transform it using a log transformation. 
 
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
 
