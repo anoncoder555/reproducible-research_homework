@@ -60,7 +60,7 @@ The code for this question can be found in "question_5.R" under Question (d).
 V = ? \
 $\alpha$ = 1181.807 \
 L = 300 kb \
-$\beta$ = 1.5152 \
+$\beta$ = 1.5152 
 
 Subsitutue values into equation to get:
 1181.807⋅(300^1.5152)
