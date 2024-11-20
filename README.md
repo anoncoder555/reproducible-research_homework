@@ -44,8 +44,6 @@ The p value from the model for the intercept was 2.28e-10, which was statistical
 
 The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $\alpha$ = 1,182 (246–5,675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
 
-![image](https://github.com/user-attachments/assets/e1b4a634-4670-4442-96aa-60a0ca2919ec)
-
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
 
