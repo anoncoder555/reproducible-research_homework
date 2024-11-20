@@ -35,6 +35,15 @@ The original relationship between volume and genome length is **$`V = \alpha L^{
 
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
 
+Applying a log transformation to the original relationship **$`V = \alpha L^{\beta}`$** gives a relationship of **$`log(V) = \beta⋅log(L) + log(\alpha)`$** which can be used in a linear model to find the exponent ($\beta$) and scaling factor ($\alpha$).
+
+The results of the linear model give us the slope (which corresponds to $\beta$) and the intercept (which corresponds to log($\alpha$)).
+Therefore, $\beta$ = 1.5152 and $\alpha$ = e<sup>7.0748</sup> = 1181.807.
+
+The p value from the model for the intercept was 2.28e-10, which was statistically significant at a level of p<0.001. The p value from the model for the slope was 6.44e-10, which was also statistically significant at a level of p<0.001.
+
+The values found in Table 2 of the paper were 
+
 **d) Write the code to reproduce the figure shown below. (10 points)** 
 
   <p align="center">
