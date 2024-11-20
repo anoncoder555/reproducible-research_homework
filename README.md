@@ -1,6 +1,6 @@
 # Reproducible research: version control and R
 
-Answers to Questions 1, 2 and 3:
+### Answers to Questions 1, 2 and 3: \
 https://github.com/anoncoder555/logistic_growth
 
 ### Q4: Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible: ###
