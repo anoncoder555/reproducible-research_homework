@@ -50,9 +50,15 @@ The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $
 
 The code for this question can be found in "question_5.R" under Question (d).
 
+
+Original graph:
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
+
+My graph:
+![image](https://github.com/user-attachments/assets/fca461fc-275f-4293-8591-e4b95ae65460)
+
 
 **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
 
