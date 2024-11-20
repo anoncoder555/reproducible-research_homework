@@ -49,11 +49,15 @@ The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
 
+The code for this question can be found in "question_5.R" under Question (d).
+
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
 
 **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
+
+
 
 ## Instructions
 
