@@ -61,9 +61,11 @@ V = ? \
 $\alpha$ = 1181.807 \
 L = 300 kb \
 $\beta$ = 1.5152 \
-Subsitutue values into equation to get:
 
-V = 
+Subsitutue values into equation to get:
+1181.807⋅(300^1.5152)
+
+V = 6697006 nm<sup>3</sup>
 
 ## Instructions
 
