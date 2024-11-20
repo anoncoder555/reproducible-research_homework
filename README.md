@@ -57,8 +57,9 @@ Original graph:
   </p>
 
 My graph:
-![image](https://github.com/user-attachments/assets/fca461fc-275f-4293-8591-e4b95ae65460)
-
+  <p align="center">
+     <img src="question_5_(d).png" width="600" height="500">
+  </p>
 
 **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
 
