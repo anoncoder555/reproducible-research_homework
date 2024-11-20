@@ -35,7 +35,7 @@ exp(7.0748)
 
 ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
   geom_point() +
-  geom_smooth(method = "lm", se = T, color = "blue", size = 0.7) +
+  geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) +
   labs(
     x = "log[Genome length (kb)]",
     y = "log[Virion volume (nm3)]"
