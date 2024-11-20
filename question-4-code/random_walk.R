@@ -30,6 +30,7 @@ random_walk  <- function (n_steps) {
   
 }
 
+# Set a random seed so it can be reproduced = data 1
 set.seed(55)
 data1 <- random_walk(500)
 
@@ -43,6 +44,8 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
+
+# Set a random seed so it can be reproduced = data 2
 set.seed(55)
 data2 <- random_walk(500)
 
