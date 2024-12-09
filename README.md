@@ -65,6 +65,7 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
     size = 9,
     face = "bold")
     )
+```
 
 Original graph:
   <p align="center">
