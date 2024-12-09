@@ -43,8 +43,7 @@ transformed_data <- Q5_data %>%
 
 Applying a log transformation to the original relationship **$`V = \alpha L^{\beta}`$** gives a relationship of **$`log(V) = \beta⋅log(L) + log(\alpha)`$** which can be used in a linear model to find the exponent ($\beta$) and scaling factor ($\alpha$).
 
-The results of the linear model provide the slope, which corresponds to $\beta$, and the intercept, which corresponds to log($\alpha$). \
-Hence, the values of $\beta$ and $\alpha$ are as follows: \
+The results of the linear model provide the slope, which corresponds to $\beta$, and the intercept, which corresponds to log($\alpha$). Hence, the values of $\beta$ and $\alpha$ are as follows: \
 $\beta$ = 1.5152  \
 $\alpha$ = e<sup>7.0748</sup> = 1181.807.
 
