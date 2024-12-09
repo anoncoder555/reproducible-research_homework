@@ -53,7 +53,7 @@ The p value from the model was **6.44e-10**, which was statistically significant
 2. Intercept corresponding to $\alpha$ : \
 The p value from the model for the intercept was **2.28e-10**, which was statistically significant at a level of $p<0.001$.
 
-The values found in Table 2 of the paper were $\beta$ = **1.52** (1.16–1.87) and $\alpha$ = **1182** (246–5675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
+The values found in Table 2 of the paper for dsDNA viruses were $\beta$ = **1.52** (1.16–1.87) and $\alpha$ = **1182** (246–5675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
 
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
