@@ -44,8 +44,8 @@ transformed_data <- Q5_data %>%
 Applying a log transformation to the original relationship **$`V = \alpha L^{\beta}`$** gives a relationship of **$`log(V) = \beta⋅log(L) + log(\alpha)`$** which can be used in a linear model to find the exponent ($\beta$) and scaling factor ($\alpha$).
 
 The results of the linear model provide the slope, which corresponds to $\beta$, and the intercept, which corresponds to log($\alpha$). Hence, the values of $\beta$ and $\alpha$ are as follows: \
-$\beta$ = 1.5152  \
-$\alpha$ = e<sup>7.0748</sup> = 1181.807.
+$\beta$ = **1.5152**  \
+$\alpha$ = e<sup>7.0748</sup> = **1181.807**.
 
 1. Slope corresponding to $\beta$ : \
 The p value from the model was **6.44e-10**, which was statistically significant at a level of $p<0.001$.
@@ -53,7 +53,7 @@ The p value from the model was **6.44e-10**, which was statistically significant
 2. Intercept corresponding to $\alpha$ : \
 The p value from the model for the intercept was **2.28e-10**, which was statistically significant at a level of $p<0.001$.
 
-The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $\alpha$ = 1182 (246–5675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
+The values found in Table 2 of the paper were $\beta$ = **1.52** (1.16–1.87) and $\alpha$ = **1182** (246–5675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
 
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
