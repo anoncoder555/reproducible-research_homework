@@ -1,11 +1,11 @@
-# This script contains the code for answering Q5
+## This script contains the code for answering Q5 ##
 
 # Install necessary packages
 library(readr)
 # install.packages("dplyr")
 library(dplyr)
 
-# Question 5 (a)
+# Question 5 (a) #
 Q5_data <- read_csv("question-5-data/Cui_etal2014.csv")
 
 View(Q5_data)
@@ -14,13 +14,13 @@ dim(Q5_data)
 # Columns = 13
 # Rows = 33
 
-# Question 5 (b)
+# Question 5 (b) #
 colnames(Q5_data)
 
 transformed_data <- Q5_data %>% 
   mutate(log_volume = log(`Virion volume (nm×nm×nm)`), log_g_length = log(`Genome length (kb)`))
 
-# Question 5 (c)
+# Question 5 (c) #
 # To get the exponent (β) and scaling factor (α) of the allometric law for dsDNA viruses, we must first fit a linear model
 
 linear_model <- lm(log_volume ~ log_g_length, data = transformed_data)
@@ -32,7 +32,7 @@ exp(7.0748)
 
 # Slope = 1.5152
 
-# Question 5 (d)
+# Question 5 (d) #
 
 # library(ggplot2)
 
@@ -51,7 +51,7 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
     face = "bold")
     )
 
-# Question 5 (e)
+# Question 5 (e) #
 
 1181.807*(300^1.5152)
 # Volume = 6697006
