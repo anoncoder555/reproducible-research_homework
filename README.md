@@ -65,15 +65,15 @@ My graph:
 
 **$`V = \alpha L^{\beta}`$** 
 
-V = ? \
+$V$ = ? \
 $\alpha$ = 1181.807 \
-L = 300 kb \
+$L$ = 300 kb \
 $\beta$ = 1.5152 
 
 Subsitutue values into equation to get: \
 1181.807⋅(300<sup>1.5152</sup>)
 
-V = 6697006 nm<sup>3</sup>
+**$V$ = 6697006 nm<sup>3</sup>**
 
 ## Instructions
 
