@@ -32,7 +32,12 @@ The table has 33 rows and 13 collumns.
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
 
 The original relationship between volume and genome length is **$`V = \alpha L^{\beta}`$** which is non-linear. To fit a linear model to the data we must first transform it using a log transformation. \
-The code for this question can be found in "question_5.R" under Question (b).
+
+The code for this question can be found below or in full in "question_5.R" under Question (b).
+```r
+transformed_data <- Q5_data %>% 
+  mutate(log_volume = log(`Virion volume (nm×nm×nm)`), log_g_length = log(`Genome length (kb)`))
+```
 
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
 
@@ -48,7 +53,7 @@ The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
 
-The code for this question can be found in "question_5.R" under Question (d).
+The code for this question can be found below or in full in "question_5.R" under Question (d).
 
 ```r
 ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
