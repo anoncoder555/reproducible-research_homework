@@ -50,6 +50,21 @@ The values found in Table 2 of the paper were $\beta$ = 1.52 (1.16–1.87) and $
 
 The code for this question can be found in "question_5.R" under Question (d).
 
+```r
+ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
+  geom_point() +
+  geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) +
+  labs(
+    x = "log[Genome length (kb)]",
+    y = "log[Virion volume (nm3)]"
+  ) +
+  theme_light() +
+  theme(
+    axis.title = element_text(
+    hjust = 0.5,        
+    size = 9,
+    face = "bold")
+    )
 
 Original graph:
   <p align="center">
