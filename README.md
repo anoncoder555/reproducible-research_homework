@@ -21,8 +21,6 @@ I used the function set.seed() to set a random seed. This initiated a specific s
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
-![image](https://github.com/user-attachments/assets/bd61b20b-7de4-4016-9904-e62ae177465d)
-
 <img width="1280" alt="Commit Change" src="https://github.com/user-attachments/assets/b9969444-a86e-4207-90b3-0a9027f7a51b">
 
   
