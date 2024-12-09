@@ -7,12 +7,12 @@ https://github.com/anoncoder555/logistic_growth
 
 **a) A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)**
 
-Running this code produces two random walk plots. Every time the code is re-run, new random walks are generated for each right and left graph. Random walks are generated as each path is determined by a random sequence of numbers each time.
-From my two random walks I can see that both random walks intiate at the origin (0,0). Time is represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. 
+In running the provided R script, we produce two random walk plots, each simulating 500 steps. The varaibility between the two random walk plots arises because each step in the walk is determined by a random angle sampled between 0 and 2π. The distance moved per step is set to 0.25, resulting in small movements each step to build the path. Random walks always intiate at the origin (0,0) as this is set in the code for time step 1. \
+Time is visually represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. Every time the code is re-run, new random walks are generated for each right and left graph. Random walks are generated as there is no random seed set in the code and hence each path is determined by a random sequence of numbers each time. 
 
 **b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)**
 
-A random seed is a number that intialises a random number generator to produce a sequence of random numbers. This allows the random number generator to produce a sequence of numbers that seem random but are instead determined by an initial starting value known as the seed. This allows sequences of random numbers to be reproducible by specifying the seed.   
+A random seed is a number that intialises a random number generator to produce a sequence of random numbers. This allows the random number generator to produce a sequence of numbers that seem random but are instead determined by an initial starting value known as the seed. This allows sequences of random numbers to be reproducible by specifying the seed. \
 Before specifying a seed in R, R will choose a random seed every time the code is run and hence choose a random sequence of numbers. In this way, the random walks will be different each time the code is run. Once we specify a seed, every time the code is run it will be begin with the same seed and hence be followed by the same sequence of numbers. This allows the walks to be reproducible as any user that specifies that specific seed will receive the same output of data and figures. 
 
 **c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)**
@@ -20,9 +20,11 @@ Before specifying a seed in R, R will choose a random seed every time the code i
 I used the function set.seed() to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time. When specified with set.seed() the right and left graphs showed identical random walks as they were fed identical sequences of numbers. 
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
-![image](https://github.com/user-attachments/assets/bd61b20b-7de4-4016-9904-e62ae177465d)
 
-
+  <p align="center">
+     <img src="(https://github.com/user-attachments/assets/bd61b20b-7de4-4016-9904-e62ae177465d">
+  </p>
+  
 ### 5) (**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form **$`V = \alpha L^{\beta}`$**, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides. ###
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
