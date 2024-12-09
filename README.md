@@ -12,7 +12,7 @@ From my two random walks I can see that both random walks intiate at the origin 
 
 **b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)**
 
-A random seed is a number that intialises a random number generator to produce a sequence of random numbers. This allows the random number generator to produce a sequence of numbers that seem random but are instead determined by an intial starting value known as the seed. This allows sequences of random numbers to be reproducible by specifying the seed.   
+A random seed is a number that intialises a random number generator to produce a sequence of random numbers. This allows the random number generator to produce a sequence of numbers that seem random but are instead determined by an initial starting value known as the seed. This allows sequences of random numbers to be reproducible by specifying the seed.   
 Before specifying a seed in R, R will choose a random seed every time the code is run and hence choose a random sequence of numbers. In this way, the random walks will be different each time the code is run. Once we specify a seed, every time the code is run it will be begin with the same seed and hence be followed by the same sequence of numbers. This allows the walks to be reproducible as any user that specifies that specific seed will receive the same output of data and figures. 
 
 **c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)**
