@@ -1,4 +1,4 @@
-# This script contains all the code for the answers to Q5
+# This script contains the code for answering Q5
 
 # Install necessary packages
 library(readr)
