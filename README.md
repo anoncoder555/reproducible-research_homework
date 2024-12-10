@@ -34,9 +34,9 @@ I used the function `set.seed()` to set a random seed. This initiated a specific
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
-<img width="1280" alt="Commit Change" src="https://github.com/user-attachments/assets/b9969444-a86e-4207-90b3-0a9027f7a51b">
+<img width="1280" alt="Commit Change" src="https://github.com/user-attachments/assets/72f2a482-0d60-4763-a1ed-eefe331baa88">
 
-  
+
 ### 5) (**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form **$`V = \alpha L^{\beta}`$**, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides. ###
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
