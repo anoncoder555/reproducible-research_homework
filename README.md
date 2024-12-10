@@ -86,13 +86,18 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
     face = "bold")
     )
 ```
+<p align="center">
+#####Original graph:
+</p>
 
-Original graph:
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
 
-My graph:
+<p align="center">
+#####My graph:
+</p>
+
   <p align="center">
      <img src="question_5_(d).png" width="600" height="500">
   </p>
