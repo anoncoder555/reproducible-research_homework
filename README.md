@@ -37,7 +37,7 @@ I used the function `set.seed()` to set a random seed. This initiated a specific
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
 
-The table has 33 rows and 13 collumns.
+The table has 33 rows and 13 columns.
 
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
 
