@@ -87,7 +87,7 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
     )
 ```
 <p align="center">
-#####Original graph:
+  <h4><strong>Original Graph</strong></h4>
 </p>
 
   <p align="center">
@@ -95,7 +95,7 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
   </p>
 
 <p align="center">
-  <h2><strong>My Graph</strong></h2>
+  <h4><strong>My Graph</strong></h4>
 </p>
 
   <p align="center">
