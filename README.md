@@ -80,7 +80,7 @@ The code for this question can be found below or in full in `question_5.R` under
 ```r
 ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
   geom_point() +
-  geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) +
+  geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) + #Fits a linear model, colours the regression line blue and standard error in shaded region
   labs(
     x = "log[Genome length (kb)]",
     y = "log[Virion volume (nm3)]"
