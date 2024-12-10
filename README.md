@@ -65,7 +65,7 @@ $\beta$ = **1.5152**  \
 $\alpha$ = e<sup>7.0748</sup> = **1181.807**.
 
 1. Slope corresponding to $\beta$ : \
-The p value from the model was **6.44e-10**, which was statistically significant at a level of $p<0.001$.
+The p value from the model was **6.44 x 10<sup>-10</sup>**, which was statistically significant at a level of $p<0.001$.
 
 2. Intercept corresponding to $\alpha$ : \
 The p value from the model for the intercept was **2.28e-10**, which was statistically significant at a level of $p<0.001$.
