@@ -68,7 +68,7 @@ $\alpha$ = e<sup>7.0748</sup> = **1181.807**.
 The p value from the model was **6.44 x 10<sup>-10</sup>**, which was statistically significant at a level of $p<0.001$.
 
 2. Intercept corresponding to $\alpha$ : \
-The p value from the model for the intercept was **2.28e-10**, which was statistically significant at a level of $p<0.001$.
+The p value from the model for the intercept was **2.28 x 10<sup>-10</sup>**, which was statistically significant at a level of $p<0.001$.
 
 The values found in Table 2 of the paper for dsDNA viruses were $\beta$ = **1.52** (1.16–1.87) and $\alpha$ = **1182** (246–5675), with 95% confidence intervals shown in brackets. Both my values for $\beta$ and $\alpha$ are identical to the values from Table 2 when rounded to 2 d.p..
 
@@ -123,7 +123,7 @@ Subsitutue values into equation to get: \
 
 **$V$ = 6697006 nm<sup>3</sup>**
 
-## Reference list:
+### Reference list:
 
 Bethard, S. (2022) *We need to talk about random seeds.* Cornell University. https://doi.org/10.48550/arXiv.2210.13393
 
