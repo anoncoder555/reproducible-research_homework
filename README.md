@@ -11,7 +11,7 @@ In running `question-4-code`, we produce two random walk plots, each simulating 
 Time is visually represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. Every time the code is re-run, new random walks are generated for each right and left graph. Random walks are generated as there is no random seed set in the code and hence each path is determined by a random sequence of numbers each time. 
 
    <p align="center">
-     <img src="https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9" width="500" height="390" alt="RandomWalk">
+     <img src="https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9" width="500" height="350" alt="RandomWalk">
   </p>
   
 
@@ -23,6 +23,10 @@ Before specifying a seed in R, R will choose a random seed every time the code i
 **c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)**
 
 I used the function `set.seed()` to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time. When specified with `set.seed()` the right and left graphs showed identical random walks as they were fed identical sequences of numbers. 
+
+<p align="center">
+     <img src="https://github.com/user-attachments/assets/ba309d1c-54b4-4a73-8374-48ec961fbb87" width="500" height="350" alt="RandomWalkSet">
+  </p>
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
