@@ -11,10 +11,9 @@ In running `question-4-code`, we produce two random walk plots, each simulating 
 Time is visually represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. Every time the code is re-run, new random walks are generated for each right and left graph. Random walks are generated as there is no random seed set in the code and hence each path is determined by a random sequence of numbers each time. 
 
    <p align="center">
-     <img src="https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9" width="400" height="300" alt="RandomWalk">
+     <img src="https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9" width="500" height="390" alt="RandomWalk">
   </p>
   
-![image](https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9)
 
 **b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)**
 
