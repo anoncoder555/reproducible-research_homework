@@ -10,6 +10,8 @@ https://github.com/anoncoder555/logistic_growth
 In running `question-4-code`, we produce two random walk plots, each simulating 500 steps. The varaibility between the two random walk plots arises because each step in the walk is determined by a random angle sampled between 0 and 2π. The distance moved per step is set to 0.25, resulting in small movements each step to build the path. Random walks always intiate at the origin (0,0) as this is set in the code for time step 1. \
 Time is visually represented by a colour gradient such that as time increases the walk progresses from dark blue to light blue. Every time the code is re-run, new random walks are generated for each right and left graph. Random walks are generated as there is no random seed set in the code and hence each path is determined by a random sequence of numbers each time. 
 
+![image](https://github.com/user-attachments/assets/f05dc14d-0270-45ca-8089-33e7459709f9)
+
 **b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)**
 
 A random seed is a number that intialises a random number generator to produce a sequence of random numbers. This allows the random number generator to produce a sequence of numbers that seem random but are instead determined by an initial starting value known as the seed. This allows sequences of random numbers to be reproducible by specifying the seed. \
