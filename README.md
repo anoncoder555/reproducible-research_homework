@@ -17,7 +17,7 @@ Before specifying a seed in R, R will choose a random seed every time the code i
 
 **c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)**
 
-I used the function set.seed() to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time. When specified with set.seed() the right and left graphs showed identical random walks as they were fed identical sequences of numbers. 
+I used the function `set.seed()` to set a random seed. This initiated a specific sequence of random numbers such that the Brownian motion was reproducible each time. When specified with `set.seed()` the right and left graphs showed identical random walks as they were fed identical sequences of numbers. 
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
@@ -34,7 +34,7 @@ The table has 33 rows and 13 collumns.
 
 The original relationship between volume and genome length is **$`V = \alpha L^{\beta}`$** which is non-linear. To fit a linear model to the data we must first transform it using a log transformation. Applying a log transformation to the original relationship **$`V = \alpha L^{\beta}`$** gives a relationship of **$`log(V) = \beta⋅log(L) + log(\alpha)`$**.
 
-The code for this question can be found below or in full in "question_5.R" under Question (b).
+The code for this question can be found below or in full in `question_5.R` under Question (b).
 ```r
 transformed_data <- Q5_data %>% 
   mutate(log_volume = log(`Virion volume (nm×nm×nm)`), log_g_length = log(`Genome length (kb)`))
@@ -59,7 +59,7 @@ The values found in Table 2 of the paper for dsDNA viruses were $\beta$ = **1.52
 
 **d) Write the code to reproduce the figure shown below. (10 points)** 
 
-The code for this question can be found below or in full in "question_5.R" under Question (d).
+The code for this question can be found below or in full in `question_5.R` under Question (d).
 
 ```r
 ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
