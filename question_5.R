@@ -41,15 +41,13 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
   geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) +
   labs(
     x = "log[Genome length (kb)]",
-    y = "log[Virion volume (nm3)]"
-  ) +
+    y = "log[Virion volume (nm3)]") +
   theme_light() +
   theme(
     axis.title = element_text(
     hjust = 0.5,        
     size = 9,
-    face = "bold")
-    )
+    face = "bold"))
 
 # Question 5 (e) #
 
