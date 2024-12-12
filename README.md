@@ -83,15 +83,14 @@ ggplot(aes(x = log_g_length, y= log_volume), data = transformed_data) +
   geom_smooth(method = "lm", se = T, color = "blue", size = 0.5) + #Fits a linear model and adds a blue regression line with standard error shaded region
   labs(
     x = "log[Genome length (kb)]", # Sets x-axis label
-    y = "log[Virion volume (nm3)]" # Sets y-axis label
-  ) +
+    y = "log[Virion volume (nm3)]") # Sets y-axis label
+   +
   theme_light() + # Sets theme
   theme(
     axis.title = element_text(
     hjust = 0.5,        
     size = 9,
-    face = "bold") # Makes axes titles bold 
-    )
+    face = "bold")) # Makes axes titles bold 
 ```
 <p align="center">
   <strong>Original Graph</strong>
